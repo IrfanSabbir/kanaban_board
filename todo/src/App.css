@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.Container{
+  width: 90%;
+  margin: 15px auto;
+}
+.Header {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width:90%;
+}
+.TaskTitle {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #4d4d4d;
+  font-size: 25px;
+  font-weight: bold;
+  width:100%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.FlexContainer {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  height: auto;
+}
+
+.ToDo {
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  padding-bottom: 20px;
+  flex: 25%;
+  border:2px solid #9E9E9E;
+  text-align: center;
+  justify-content: center;
+  /* padding: 20px; */
+}
+.Progress {
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  padding-bottom: 20px;
+  flex: 25%;
+  border:2px solid #9E9E9E;
+  text-align: center;
+  justify-content: center;
+}
+
+.Done {
+  margin: 5px;
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  padding-bottom: 20px;
+  flex: 25%;
+  border:2px solid #9E9E9E;
+  text-align: center;
+  justify-content: center;
+}
+
+.TaskBody {
+  width:80%;
+  height: auto;
+  background-color: rgb(218, 218, 218);
+  border:1px solid #9E9E9E;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.FormBody {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  height: auto;
+  /* width: 70%; */
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+.FormBody input{
+  width: 40%;
+  height: 40px;
+  font-size: 20px;
+  padding: 0px 10px;
+  margin-right: 10px;
+}
+.EnlabledButton{
+  width: 15%;
+  height: 44x;
+  font-size: 20px;
+  padding: 8px 0px;
+  color: #ff6347;
+  cursor: pointer;
+}
+.DsiabledButton{
+  width: 15%;
+  height: 44x;
+  font-size: 20px;
+  padding: 8px 0px;
+  color: #ff6347;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+@media (max-width: 700px) {
+  .FlexContainer {
+    flex-direction: column;
+  }
+}
